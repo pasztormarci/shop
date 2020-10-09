@@ -1,1 +1,16 @@
+import turtle # allows us to use the turtles library
+
+
+wn = turtle.Screen()        # creates a graphics window
+wn.bgcolor("black")
+from turtle import *
+color('blue','red')
+begin_fill()
+while True:
+    forward(60)
+    left(70)
+for i in range(3):
+    alex.forward(150)           # tell alex to move forward by 150 units
+    alex.left(90)               # turn by 90 degrees
+    alex.forward(75)            # complete the second side of a rectangle
 
